@@ -60,3 +60,13 @@ With a sleek and user-friendly design, Holbegram simplifies connection between i
     
             - Save the application using the Bundle ID: `com.holbegram.holbegram`.
             - Download the file `GoogleService-Info.plist` and place it in the `ios/Runner` directory.
+
+## :sagittarius: Author
+
+> :woman: Sabrina Papeau
+
+> :octocat: [Github](https://github.com/Holbiwan)
+
+> [X](https://twitter.com/@Holbiwan_Place)
+
+> :blue_book: [Linkedin](https://www.linkedin.com/in/sabrina-p006566185)
