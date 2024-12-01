@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-**Holbegram is a mobile app crafted to provide an outstanding experience on both Android and iOS devices. Leveraging the robust Flutter framework alongside Dart programming, Holbegram stands out for its seamless performance and responsiveness, enabling users to fully enjoy the advanced functionalities of a contemporary social media platform.
+Holbegram is a mobile app crafted to provide an outstanding experience on both Android and iOS devices. Leveraging the robust Flutter framework alongside Dart programming, Holbegram stands out for its seamless performance and responsiveness, enabling users to fully enjoy the advanced functionalities of a contemporary social media platform.
 
 With a sleek and user-friendly design, Holbegram simplifies connection between individuals, facilitates sharing of engaging visual content, and fosters active participation through dynamic features. This app serves as a vital resource for anyone aiming to enhance their digital presence and engage with an ever-evolving online community.
 
