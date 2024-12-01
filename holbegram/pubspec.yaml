@@ -1,0 +1,56 @@
+# Project metadata
+name: holbegram
+description: "A social media app built with Flutter and Firebase."
+version: 1.0.0+1
+
+# Dart and Flutter SDK constraints
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Main dependencies for the project
+dependencies:
+  flutter:
+    sdk: flutter  # Core Flutter SDK
+  firebase_core: ^2.15.1  # Core Firebase functionality
+  firebase_auth: ^4.20.0  # Authentication services
+  cloud_firestore: ^4.17.5  # Firestore database integration
+  firebase_storage: ^11.7.7  # Cloud Storage integration
+  firebase_database: ^10.5.7  # Realtime Database integration
+  cupertino_icons: ^1.0.6  # Cupertino-style icons for iOS
+  uuid: ^4.4.2  # Generate unique identifiers
+  image_picker: ^1.1.2  # Access device's camera and gallery
+  bottom_navy_bar: ^6.1.0  # Customizable bottom navigation bar
+  flutter_staggered_grid_view: ^0.4.0  # Staggered grid layouts
+  badges: ^2.0.2  # Badges for UI elements
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Flutter's testing framework
+  flutter_lints: ^3.0.0  # Linting for Flutter projects
+  flutter_launcher_icons: ^0.9.2  # Generate app icons
+
+# Flutter-specific settings
+flutter:
+  uses-material-design: true  # Enable Material Design for the project
+
+  # Application assets
+  assets:
+    - assets/images/  # Directory for image assets
+    - assets/images/user_placeholder.png  # Default user placeholder image
+
+  # Custom fonts used in the app
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
+    - family: InstagramSans
+      fonts:
+        - asset: assets/fonts/InstagramSans.ttf
+
+# Flutter launcher icons configuration
+flutter_icons:
+  android: false  # Disable Android app icon generation
+  ios: true  # Enable iOS app icon generation
+  remove_alpha_ios: true  # Remove transparency for iOS icons
+  image_path: "assets/icon/icon-appstore.png"  # Path to the app icon
