@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# Définir le port
+# Specify the port to be used
 PORT=5000
 
-# Libérer le port s'il est déjà utilisé
+# Terminate any process currently using the specified port
 fuser -k 5000/tcp
 
-# Changer de répertoire vers le dossier de build web
+# Navigate to the directory containing the web build files
 cd build/web/
 
-# Démarrer le serveur
+# Launch the HTTP server on the defined port
 python3 -m http.server $PORT
-
